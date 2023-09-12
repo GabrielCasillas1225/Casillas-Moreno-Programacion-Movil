@@ -1,1 +1,60 @@
+.App {
+    text-align: center;
+    height: 850px;
+    background-color: #68B1EE;
+  }
+  .applogo{
+    width: 220px;
+    height: 220px;
+    border-radius: 10%;
+  }
+  
+  .contenedor{
+    /*background: pink;*/
+    width: 1000;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
 
+  
+  
+  .botonresetdis{
+    background-color: white;
+    height: 50px;
+    width: 80px;
+    border-radius: 10%;
+    font-family: sans-serif;
+    font-size: 20px;
+  
+  }
+  .botonresetdis:hover{
+    background-color: black;
+    color: darkgoldenrod;
+  }
+  
+  
+  .contraseniadis{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.emaildis{
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+
+.nuevacontraseniadis{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.confirmarcontraseniadis{
+    font-family: sans-serif;
+    font-size: 20px;
+}
