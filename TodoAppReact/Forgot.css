@@ -1,1 +1,48 @@
+.App {
+    text-align: center;
+    height: 750px;
+    background-color: #68B1EE;
+}
+.applogo{
+    width: 220px;
+    height: 220px;
+    border-radius: 10%;
+}
 
+.contenedor{
+    /*background: pink;*/
+    width: 1000;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emaildis{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.enviardis{
+    background-color: white;
+    height: 50px;
+    width: 80px;
+    border-radius: 10%;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+.enviardis:hover{
+    background-color: black;
+    color: darkgoldenrod;
+}
+
+.login{
+    color: rgb(157, 39, 189);
+    font-size: 25px;
+}
+
+.login:hover{
+    color: rgb(53, 41, 228);
+}
