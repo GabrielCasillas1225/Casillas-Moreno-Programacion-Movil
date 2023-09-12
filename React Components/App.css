@@ -1,1 +1,94 @@
-A
+/*.App {
+  text-align: center;
+}*/
+
+.App{
+  background: #318BD6;
+  height: 1000px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.supercontainer{
+  width: 1200px;
+  height: 500px;
+  /*background: pink;*/
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+
+}
+
+.supercontainer .nombredis{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.supercontainer .apellidosdis{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.supercontainer .correodis{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.colorh2{
+  color: aliceblue;
+}
+
+
+/*input[type="submit"], input[type="button"]{
+  background-color: aqua;
+}*/
+
+.buttonenviardis{
+  width: 80px;  
+  height: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Courier, monospace;
+  background-color: aqua;
+
+
+}
+
+
+.buttoncancelardis{
+  width: 80px;  
+  height: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Courier, monospace;
+  background-color: rgb(255, 174, 0);
+}
+
+.botones{
+  width: 350px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  /*background-color: brown*/
+}
+
+.tabla{
+  background-color: #41C3F0;
+}
+.tablacompleta{
+  background-color: aliceblue;
+}
+
+
+/*.buttonStyle {
+  backgroundColor: '#007BFF',
+  color: '#fff',
+  border: 'none',
+  padding: '10px 20px',
+  marginRight: '10px',
+  cursor: 'pointer',
+};*/
+
+/*const tableStyle = {
+  borderCollapse: 'collapse',
+  width: '100%',
+  marginTop: '20px',
+};*/
